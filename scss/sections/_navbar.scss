@@ -1,0 +1,17 @@
+@use '../custom' as *;
+
+$navbar-nav-link-padding-x: 0.75rem;
+$navbar-light-color: $gray-100;
+
+.nav-link {
+  font-size: large;
+  font-weight: 600;
+}
+.menu {
+  background: linear-gradient(
+    to right,
+    rgba($primary, 0.95),
+    rgba($secondary, 0.95)
+  );
+}
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
