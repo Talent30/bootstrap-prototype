@@ -1,7 +1,13 @@
+@import "/node_modules/bootstrap/scss/bootstrap";
+
+$navbar-nav-link-padding-x: 0.75rem;
+$navbar-light-color: $gray-100;
 //THEME COLORS
-$orange: #ff8400;
+$orange: rgba(218, 20, 20, 0.333);
 $yellow: #ffc107;
 
+$primary: $orange;
+$secondary: $yellow;
 //WHITE AND GRAY COLORS
 // scss-docs-start gray-color-variables
 $white: #fff;
@@ -15,8 +21,3 @@ $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
 $black: #000;
-
-$primary: $orange;
-$secondary: $yellow;
-
-@import "../node_modules/bootstrap/scss/bootstrap.scss";

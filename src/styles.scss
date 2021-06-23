@@ -1,0 +1,17 @@
+@use '/src/scss/custom';
+
+//IMPORT THE COMPONENTS
+@use '/src/scss/components/animations';
+@use '/src/scss/components/buttons';
+@use '/src/scss/components/mixins';
+@use '/src/scss/components/typograhpy';
+
+//IMPORT THE SECTIONS
+@use '/src/scss/sections/footer';
+@use '/src/scss/sections/intro-section';
+@use '/src/scss/sections/navbar';
+@use '/src/scss/sections/trust-section';
+@use '/src/scss/sections/value-section';
+
+//IMPORT BOOTSTRAP
+@import "~bootstrap/scss/bootstrap";
